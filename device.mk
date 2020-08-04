@@ -27,6 +27,10 @@
 PRODUCT_PACKAGES += \
     libion
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    device/huawei/figo/kernel/dummykernel:kernel
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.hi6250.rc

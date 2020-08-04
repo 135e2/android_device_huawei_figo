@@ -48,5 +48,8 @@ TARGET_NO_BOOTLOADER := true
 # Hardware
 TARGET_NO_DTIMAGE := false
 
+# Kernel 
+TARGET_NO_KERNEL := false
+
 # Sepolicy
 BOARD_SEPOLICY_DIRS += system/bt/vendor_libs/linux/sepolicy
