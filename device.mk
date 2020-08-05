@@ -35,6 +35,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libion
 
+# Input
+PRODUCT_COPY_FILES += \
+    device/huawei/figo/configs/usr/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl \
+    device/huawei/figo/configs/usr/keylayout/usbaudio.kl:system/usr/keylayout/usbaudio.kl \
+
 # Kernel
 PRODUCT_COPY_FILES += \
     device/huawei/figo/kernel/dummykernel:kernel
