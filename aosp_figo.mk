@@ -41,3 +41,4 @@ $(call inherit-product-if-exists, vendor/huawei/figo/figo-vendor.mk)
 # Launcher3QuickStep
 PRODUCT_PACKAGES += \
     Launcher3QuickStep \
+    WallpaperPicker
