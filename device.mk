@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/huawei/figo/kernel/dummykernel:kernel
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS := \
+    device/huawei/figo/overlay
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.hi6250.rc
