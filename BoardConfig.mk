@@ -24,6 +24,8 @@
 # components.
 
 # Arch
+include build/target/board/generic_arm64_ab/BoardConfig.mk
+
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
