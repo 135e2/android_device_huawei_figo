@@ -71,6 +71,17 @@ endif
 
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Root
+BOARD_ROOT_EXTRA_FOLDERS := \
+    cust \
+    hw_odm \
+    modem_log \
+    preload \
+    sec_storage \
+    splash2 \
+    version
+
 # Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/huawei/figo/sepolicy/
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/huawei/figo/sepolicy/private
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/huawei/figo/sepolicy/public
 BOARD_SEPOLICY_DIRS += system/bt/vendor_libs/linux/sepolicy
