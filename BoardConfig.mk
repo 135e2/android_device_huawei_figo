@@ -72,4 +72,5 @@ endif
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/huawei/figo/sepolicy/
 BOARD_SEPOLICY_DIRS += system/bt/vendor_libs/linux/sepolicy
