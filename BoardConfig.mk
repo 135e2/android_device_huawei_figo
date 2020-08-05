@@ -54,5 +54,8 @@ TARGET_NO_DTIMAGE := false
 # Kernel 
 TARGET_NO_KERNEL := false
 
+# Partitions
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3707764736
+
 # Sepolicy
 BOARD_SEPOLICY_DIRS += system/bt/vendor_libs/linux/sepolicy
